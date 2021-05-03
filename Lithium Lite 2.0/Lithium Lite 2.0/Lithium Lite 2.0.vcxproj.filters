@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{7be174e4-23c5-4652-a8cb-77a2a753b0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{cc567f37-7ac4-4b33-9494-6f3173b5532e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\crypto">
+      <UniqueIdentifier>{3916231b-0e06-433e-b452-53e6429a8da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\fonts">
+      <UniqueIdentifier>{7eed5863-07a1-48f3-b6fb-84ea024335d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{bbe00eb7-41e2-4b84-b957-ca7f3e64a463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{9d1aaddc-e0f9-4c72-b98a-c7613b521b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\combat">
+      <UniqueIdentifier>{b2452c46-98ef-421d-951f-8b7291d30805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\destruct">
+      <UniqueIdentifier>{8789ae20-b3cc-415c-8d75-eac4b598dd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\movement">
+      <UniqueIdentifier>{0452edf3-9438-44b7-ade4-e0c4d9aa90d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\visuals">
+      <UniqueIdentifier>{9f1f0957-b293-4a07-ab38-3e2c63cec4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scanner">
+      <UniqueIdentifier>{ab17e309-9a83-422e-af63-9bb6c1b0d0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\crypto\sha512">
+      <UniqueIdentifier>{4c9f3433-2a07-4ed9-99bb-177e21278900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\crypto\md5">
+      <UniqueIdentifier>{5d342665-e6b9-4947-983c-bc4fa2cdfec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\crypto\sha256">
+      <UniqueIdentifier>{ea3d403a-c664-4e4d-a156-819bc9cef8f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="scanner.cpp">
+      <Filter>scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="cavefinder.cpp">
+      <Filter>modules\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>modules\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="nametags.cpp">
+      <Filter>modules\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="antiafk.cpp">
+      <Filter>modules\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="bhop.cpp">
+      <Filter>modules\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="fly.cpp">
+      <Filter>modules\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="speed.cpp">
+      <Filter>modules\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>modules\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="destruct.cpp">
+      <Filter>modules\destruct</Filter>
+    </ClCompile>
+    <ClCompile Include="clicker.cpp">
+      <Filter>modules\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="reach.cpp">
+      <Filter>modules\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="throwpot.cpp">
+      <Filter>modules\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="velocity.cpp">
+      <Filter>modules\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="binds.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="status.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sha512.cpp">
+      <Filter>auth\crypto\sha512</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>auth\crypto\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="sha256.h">
+      <Filter>auth\crypto\sha256</Filter>
+    </ClCompile>
+    <ClCompile Include="auth.cpp">
+      <Filter>auth</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="ntdll.h" />
+    <ClInclude Include="xorstr.h" />
+    <ClInclude Include="md5.h">
+      <Filter>auth\crypto\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="sha512.h">
+      <Filter>auth\crypto\sha512</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="fa.h">
+      <Filter>imgui\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="roboto.h">
+      <Filter>imgui\fonts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
