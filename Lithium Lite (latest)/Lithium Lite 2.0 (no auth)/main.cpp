@@ -148,6 +148,7 @@ void integrity() {
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
     }
 }
+
 /*
 void protectauthlinkplzhaha() {
     while (true) {
@@ -170,8 +171,8 @@ int main() {
                  nullptr, 0, nullptr);
     CreateThread(nullptr, 0, (LPTHREAD_START_ROUTINE) & integrity,
                  nullptr, 0, nullptr);
-
-    /*std::vector <std::string> detected;
+    /*
+    std::vector <std::string> detected;
     for (auto tuple : process_list) {
         DWORD pid = v::utils::get_pid(std::get<0>(tuple));
         if (pid != NULL) {
@@ -248,7 +249,8 @@ int main() {
             std::exit(EXIT_SUCCESS);
         }
     }
-    VM_FISH_BLACK_END*/
+    VM_FISH_BLACK_END
+    */
 
      ShowWindow(GetConsoleWindow(), 0);
     RECT rect;
