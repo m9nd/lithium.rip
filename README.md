@@ -1,3 +1,7 @@
-# lithiumclient.wtf source code leak.
+# Lithium Client Source Leak
 
-This source code leak contains sources ranging from the Latest Lithium Lite 2.0 to older versions such as the icetea styled menu lithium.
+* Credits to Syn for Epic pasting Paladin in Lithium
+* Credits to Diego for Koid source
+* Credits to LevensLes for Cucklord Ghost (Only used Cucklord in earlier versions)
+* Credits to Eternity and Jesse for making us the AutoClicker randomization
+* ALL CODE IS ~~WRITTEN~~ SKIDDED BY EPIC
